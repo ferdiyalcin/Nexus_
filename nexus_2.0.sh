@@ -90,5 +90,5 @@ cargo nexus verify
 
 sleep 5
 
-cecho "=> Kanıt doğrulandı. Kanıtınızı indirip, kaydetmeyi unutmayın."
+cecho "=> Kanıt doğrulandı. nexus-proof dosyanızı indirip, kaydetmeyi unutmayın."
 cecho "=> by Maximillion"
