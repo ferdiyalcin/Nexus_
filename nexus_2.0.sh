@@ -14,7 +14,7 @@ cecho "=> Komut dosyası çalıştırılıyor..."
 sleep 5
 
 cecho "=> Paket listesi güncelleniyor ve CMake yükleniyor..."
-sudo apt update
+sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y cmake
 
 sleep 5
